@@ -125,6 +125,13 @@ gaps outer 5
 #
 # Workspaces:
 #
+    # Next/Prev workspaces
+    bindsym $mod+Alt+Left workspace prev
+    bindsym $mod+Alt+Right workspace next
+    # Move
+    bindsym $mod+Alt+Shift+Left move container to workspace prev
+    bindsym $mod+Alt+Shift+Right move container to workspace next
+
     # Switch to workspace
     bindsym $mod+1 workspace number 1
     bindsym $mod+2 workspace number 2
